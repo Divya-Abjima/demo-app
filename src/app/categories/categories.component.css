@@ -1,0 +1,19 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    width:fit-content;
+    margin: auto;
+}
+li {
+    list-style-type: none;
+    width:fit-content;
+    background-color: aqua;
+    padding: 5px 10px;
+    margin:10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+li:hover, li:active {
+    color:white;
+    background: transparent;
+}
