@@ -1,0 +1,8 @@
+li {
+    list-style-type: none;
+    width:fit-content;
+    background-color: aqua;
+    padding: 5px 10px;
+    margin:10px;
+    border-radius: 10px;
+}

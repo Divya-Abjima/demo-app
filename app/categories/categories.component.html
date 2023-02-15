@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let category of categories;let i = index" (click)="displayGames(i)">{{category.name}}
+        </li>
+</ul>
+<router-outlet></router-outlet>

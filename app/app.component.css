@@ -1,0 +1,33 @@
+header {
+    background-color: rgb(67 220 217);
+    color: white;
+    padding: 10px;
+    font-size: x-large;
+    border-radius: 10px 10px 0px 0px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color:rgb(22 139 130);
+    background-color: gainsboro;
+    border-radius: 0px 0px 10px 10px;
+}
+li {
+    list-style-type: none;
+    padding: 10px;
+    margin: auto;
+    transition: all 0.3s ease;
+}
+li:hover {
+    font-weight: 600;
+    text-shadow: 1px 1px white, 1px 1px 2px rgba(0, 0, 0, 0.438);
+    cursor: pointer;
+}
+p {
+    color: white;
+    position: absolute;
+    top:40%;
+    left: 45%;
+    font-size: 70px;
+}
